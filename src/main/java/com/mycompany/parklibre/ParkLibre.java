@@ -11,6 +11,6 @@ package com.mycompany.parklibre;
 public class ParkLibre {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        java.awt.EventQueue.invokeLater(() -> new Vista.InicioVista().setVisible(true));
     }
 }
